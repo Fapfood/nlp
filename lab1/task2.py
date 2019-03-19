@@ -23,7 +23,7 @@ def for_one(name):
 
     founds = re.findall(regex, content, flags=re.M | re.I)
     for elem in founds:
-        elem = elem[0].replace(elem[1], '').replace('\n', ' ').replace(' ', '').replace('§', 'ust.')
+        elem = re.sub(r'\s*', '', elem[0].replace(elem[1], '').replace('§', 'ust.'))
         arts = re.findall(art, elem)
         others = re.sub(art, 'SEP', elem).split('SEP')
 
@@ -32,11 +32,7 @@ def for_one(name):
             f = re.sub(r'{LAST}((lub|i|,|oraz)(\s*(w|z))?)?$'.format(LAST=a[6]), '', a[0])
             while f != 'art.':
                 f = re.sub(r'(lub|i|,|oraz)(\s*(w|z))?$', '', f)
-                try:
-                    f = re.findall(art, f)[0]
-                except:
-                    print('<---->')
-                    print(name)
+                f = re.findall(art, f)[0]
                 TO_PROCESS.append(('ART', f[6]))
                 f = re.sub(r'{LAST}((lub|i|,|oraz)(\s*(w|z))?)?$'.format(LAST=f[6]), '', f[0])
             other = re.sub(r'(lub|i|,|oraz)(\s*(w|z))?$', '', others[i + 1])
@@ -72,11 +68,7 @@ def for_one(name):
             f = re.sub(r'{LAST}((lub|i|,|oraz)(\s*(w|z))?)?$'.format(LAST=a[7]), '', a[0])
             while f != 'ust.':
                 f = re.sub(r'(lub|i|,|oraz)(\s*(w|z))?$', '', f)
-                try:
-                    f = re.findall(ust, f)[0]
-                except:
-                    print('<---->')
-                    print(name)
+                f = re.findall(ust, f)[0]
                 TO_PROCESS.append((elem[0], 'UST', f[7]))
                 f = re.sub(r'{LAST}((lub|i|,|oraz)(\s*(w|z))?)?$'.format(LAST=f[7]), '', f[0])
             other = re.sub(r'(lub|i|,|oraz)(\s*(w|z))?$', '', others[i + 1])

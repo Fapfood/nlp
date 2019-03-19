@@ -10,14 +10,14 @@ def for_one(name):
 
     main = re.findall(r'((Dz\.\s*U\.)(\s*z\s*\d{4}\s*r\.)(\s*Nr\s*\d+,\s*poz\.\s*\d+))\s*USTAWA', content)
     if len(main) > 0:
-        main_year = main[0][2].replace(' ', '')
+        main_year = re.sub(r'\s*', '', main[0][2])
     else:
         main_year = 'NNone'
 
     a = re.findall(r'((Dz\.\s*U\.)((\s*z\s*\d{4}\s*r\.)?((\s*Nr\s*\d+,\s*poz\.\s*\d+)(,|\s*i)?)+(\s*oraz)?)+)', content,
                    flags=re.MULTILINE)
     for elem in a:
-        elem = elem[0].replace(' ', '').replace('\n', '')
+        elem = re.sub(r'\s*', '', elem[0])
         b = re.findall(r'((Dz\.U\.)?(z\d{4}r\.)?((Nr\d+,poz\.\d+)(,|i)?)+(oraz)?)', elem)
         for elem2 in b:
             year = elem2[2] if elem2[2] != '' else main_year
