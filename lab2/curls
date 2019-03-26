@@ -1,0 +1,116 @@
+DELETE /my_index
+PUT /my_index
+{
+  "settings": {
+    "number_of_shards": 1,
+    "analysis": {
+      "filter": {
+        "kodeks_synonym_filter": {
+          "type": "synonym",
+          "synonyms": [
+            "kpk=>kodeks postępowania karnego",
+            "kpc=>kodeks postępowania cywilnego",
+            "kk=>kodeks karny",
+            "kc=>kodeks cywilny"
+          ]
+        }
+      },
+      "analyzer": {
+        "my_analyzer": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": [
+            "lowercase",
+            "kodeks_synonym_filter",
+            "morfologik_stem"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "ustawa": {
+      "properties": {
+        "content": {
+          "type": "text",
+          "analyzer": "my_analyzer"
+        }
+      }
+    }
+  }
+}
+
+GET /my_index/_analyze
+{
+  "analyzer": "my_analyzer",
+  "content": "Jesteś Koniem kpk kc"
+}
+
+PUT /my_index/ustawa/1
+{
+  "content": "ustawa z kpc wchodziła powoli w cudze życie"
+}
+
+GET /my_index/ustawa/1993_599
+
+GET /my_index/ustawa/_search
+GET /my_index/ustawa/_search?q=content:cywilny
+
+GET /my_index/ustawa/_search
+{
+  "query": {
+    "match": {
+      "content": "ustawa"
+    }
+  }
+}
+
+GET my_index/ustawa/_search
+{
+  "query": {
+    "match_phrase": {
+      "content": {
+        "query": "kodeks postępowania cywilnego"
+      }
+    }
+  }
+}
+
+GET my_index/ustawa/_search
+{
+  "query": {
+    "match_phrase": {
+      "content": {
+        "query": "wchodzi w życie",
+        "slop": 2
+      }
+    }
+  }
+}
+
+GET /my_index/ustawa/_search
+{
+  "size": 10,
+  "query": {
+    "match": {
+      "content": "konstytucja"
+    }
+  }
+}
+
+GET /my_index/ustawa/_search
+{
+  "size": 10,
+  "query": {
+    "match": {
+      "content": "konstytucja"
+    }
+  },
+  "highlight": {
+    "fields": {
+      "content": {"number_of_fragments": 3}
+    }
+  }
+}
+
+
