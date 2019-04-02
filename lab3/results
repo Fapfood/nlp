@@ -1,0 +1,33 @@
+top = [('margin', 1111), ('późn', 1080), ('family', 543), ('text', 531), ('mso', 448), ('bottom', 399), ('face', 327), ('panose', 326), ('serif', 325), ('gmo', 298), ('times', 296), ('iv', 272), ('sa', 266), ('name', 254), ('size', 248), ('left', 233), ('right', 233), ('sww', 227), ('skw', 196), ('ex', 169), ('height', 168), ('line', 168), ('ike', 162), ('vi', 154), ('indent', 121), ('remediacji', 120), ('vii', 111), ('ure', 103), ('uke', 97), ('kn', 95)]
+levenshtein = ['adaptacyjnoopiekuńcze', 'agaricus', 'apostille', 'asistent', 'auditorów', 'autologicznego', 'aw', 'betaagonistycznym', 'betania', 'biorównoważności', 'brucellosis', 'cannabis', 'caprine', 'cattles', 'cał', 'cego', 'chemiczn', 'chloro', 'cidr', 'cobrpib', 'condensed', 'control', 'cych', 'cyjanamidowy', 'cza', 'daninowym', 'deklarow', 'dimocznika', 'div', 'dnego']
+
+adaptacyjnoopiekuńcze adaptacyjny 11
+agaricus awaria 4
+apostille postulat 4
+asistent asystent 1
+auditorów audytor 3
+autologicznego autonomiczny 5
+aw aż 1
+betaagonistycznym agonistyczny 5
+betania brytania 2
+biorównoważności równoważność 5
+brucellosis bruceloza 4
+cannabis napis 4
+caprine curie 3
+cattles seattle 3
+cał cały 1
+cego czego 1
+chemiczn chemiczny 1
+chloro chlor 1
+cidr cydr 1
+cobrpib obręb 3
+condensed kontener 4
+control kontrola 2
+cych cech 1
+cyjanamidowy wyznaniowy 5
+cza za 1
+daninowym dniowy 3
+deklarow deklarować 2
+dimocznika mocznik 3
+div hiv 1
+dnego długo 2
