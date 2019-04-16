@@ -184,6 +184,5 @@ def for_one(name):
 
 for filename in glob.glob("../ustawy/*.txt"):
     d = for_one(filename)
-    print(d)
     sort = sorted(d.items(), key=lambda x: x[1], reverse=True)
-    # print(sort)
+    print(filename, sort)
