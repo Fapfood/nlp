@@ -1,0 +1,61 @@
+SVM
+
+100%
+                   precision    recall  f1-score   support
+
+__label__amending       0.87      0.89      0.88       148
+     __label__not       0.80      0.78      0.79        89
+
+        micro avg       0.84      0.84      0.84       237
+        macro avg       0.83      0.83      0.83       237
+     weighted avg       0.84      0.84      0.84       237
+
+
+10%
+                   precision    recall  f1-score   support
+
+__label__amending       0.80      0.86      0.83       148
+     __label__not       0.74      0.63      0.68        89
+
+        micro avg       0.78      0.78      0.78       237
+        macro avg       0.77      0.75      0.75       237
+     weighted avg       0.77      0.78      0.77       237
+
+
+10
+                   precision    recall  f1-score   support
+
+__label__amending       0.76      0.90      0.83       148
+     __label__not       0.76      0.54      0.63        89
+
+        micro avg       0.76      0.76      0.76       237
+        macro avg       0.76      0.72      0.73       237
+     weighted avg       0.76      0.76      0.75       237
+
+
+1
+                   precision    recall  f1-score   support
+
+__label__amending       0.64      0.92      0.76       148
+     __label__not       0.52      0.15      0.23        89
+
+        micro avg       0.63      0.63      0.63       237
+        macro avg       0.58      0.53      0.49       237
+     weighted avg       0.60      0.63      0.56       237
+
+FASTTEXT
+
+100%
+{'__label__amending': {'precision': 0.6324786324786325, 'recall': 1.0, 'f1score': 0.774869109947644},
+'__label__not': {'precision': 1.0, 'recall': 0.033707865168539325, 'f1score': 0.06521739130434782}}
+
+10%{'__label__amending': {'precision': 0.6486486486486487, 'recall': 0.972972972972973, 'f1score': 0.7783783783783784},
+'__label__not': {'precision': 0.7333333333333333, 'recall': 0.12359550561797752, 'f1score': 0.21153846153846154}}
+
+10
+{'__label__amending': {'precision': 0.6548672566371682, 'recall': 1.0, 'f1score': 0.7914438502673797},
+'__label__not': {'precision': 1.0, 'recall': 0.12359550561797752, 'f1score': 0.22}}
+
+1
+{'__label__amending': {'precision': 0.7222222222222222, 'recall': 0.08783783783783784, 'f1score': 0.1566265060240964},
+'__label__not': {'precision': 0.3835616438356164, 'recall': 0.9438202247191011, 'f1score': 0.5454545454545454}}
