@@ -1,0 +1,83 @@
+commands:
+  - name: górne oświetlenie
+    type: adjective-noun
+    aliases:
+      - name: górna lampa
+        type: adjective-noun
+      - name: górne światło
+        type: adjective-noun
+    code: E1
+    configs:
+      - devices/lamp.yml
+  - name: oświetlenie nad szafkami
+    type: noun-statics
+    aliases:
+      - name: lampa nad szafkami
+        type: noun-statics
+      - name: światło nad szafkami
+        type: noun-statics
+    code: E2
+    configs:
+      - devices/lamp.yml
+      - devices/smart-lamp.yml
+      - devices/smart-lamp-set.yml
+  - name: oświetlenie pod szafkami
+    type: noun-statics
+    aliases:
+      - name: lampa pod szafkami
+        type: noun-statics
+      - name: światło pod szafkami
+        type: noun-statics
+    code: E2
+    configs:
+      - devices/lamp.yml
+  - name: oświetlenie okapu
+    type: noun-statics
+    aliases:
+      - name: lampa nad okapem
+        type: noun-statics
+      - name: światło nad okapem
+        type: noun-statics
+      - name: oświetlenie nad okapem
+        type: noun-statics
+    code: E4
+    configs:
+      - devices/lamp.yml
+  - name: wentylator okapu
+    type: noun-statics
+    aliases:
+      - name: nawiew okapu
+        type: noun-statics
+      - name: klimatyzacja okapu
+        type: noun-statics
+      - name: wentylator w okapie
+        type: noun-statics
+      - name: nawiew w okapie
+        type: noun-statics
+      - name: klimatyzacja w okapie
+        type: noun-statics
+      - name: okap
+        type: noun
+    code: E5
+    configs:
+      - devices/fan.yml
+  - name: wentylator
+    type: noun
+    aliases:
+      - name: nawiew
+        type: noun
+      - name: klimatyzacja
+        type: noun
+    code: E6
+    configs:
+      - devices/fan.yml
+  - name: całe oświetlenie
+    type: adjective-noun
+    aliases:
+      - name: wszystkie lampy
+        type: adjective-noun
+      - name: wszystkie światła
+        type: adjective-noun
+    code: E7
+    configs:
+      - devices/lamp.yml

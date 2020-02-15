@@ -1,0 +1,18 @@
+commands:
+  - name: włączyć
+    type: verb
+    aliases:
+      - name: załączyć
+        type: verb
+    code: 'on'
+  - name: wyłączyć
+    type: verb
+    code: 'off'
+  - name: ustawić
+    type: verb
+    aliases:
+      - name: wybrać
+        type: verb
+    code: set
+    configs:
+      - devices/timer-set.yml

@@ -1,0 +1,195 @@
+commands:
+  - name: jeden
+    type: statics
+    aliases:
+      - name: pierwszy
+        type: adjectives
+      - name: '1'
+        type: statics
+    code: '1'
+  - name: dwa
+    type: statics
+    aliases:
+      - name: drugi
+        type: adjectives
+      - name: '2'
+        type: statics
+    code: '2'
+  - name: trzy
+    type: statics
+    aliases:
+      - name: trzeci
+        type: adjectives
+      - name: '3'
+        type: statics
+    code: '3'
+  - name: cztery
+    type: statics
+    aliases:
+      - name: czwarty
+        type: adjectives
+      - name: '4'
+        type: statics
+    code: '4'
+  - name: pięć
+    type: statics
+    aliases:
+      - name: piąty
+        type: adjectives
+      - name: '5'
+        type: statics
+    code: '5'
+  - name: sześć
+    type: statics
+    aliases:
+      - name: szósty
+        type: adjectives
+      - name: '6'
+        type: statics
+    code: '6'
+  - name: siedem
+    type: statics
+    aliases:
+      - name: siódmy
+        type: adjectives
+      - name: '7'
+        type: statics
+    code: '7'
+  - name: osiem
+    type: statics
+    aliases:
+      - name: ósmy
+        type: adjectives
+      - name: '8'
+        type: statics
+    code: '8'
+  - name: dziewięć
+    type: statics
+    aliases:
+      - name: dziewiąty
+        type: adjectives
+      - name: '9'
+        type: statics
+    code: '9'
+  - name: dziesięć
+    type: statics
+    aliases:
+      - name: dziesiąty
+        type: adjectives
+      - name: '10'
+        type: statics
+    code: '10'
+
+  - name: jedenaście
+    type: statics
+    aliases:
+      - name: jedenasty
+        type: adjectives
+      - name: '11'
+        type: statics
+    code: '11'
+  - name: dwanaście
+    type: statics
+    aliases:
+      - name: dwunasty
+        type: adjectives
+      - name: '12'
+        type: statics
+    code: '12'
+  - name: trzynaście
+    type: statics
+    aliases:
+      - name: trzynasty
+        type: adjectives
+      - name: '13'
+        type: statics
+    code: '13'
+  - name: czternaście
+    type: statics
+    aliases:
+      - name: czternasty
+        type: adjectives
+      - name: '14'
+        type: statics
+    code: '14'
+  - name: piętnaście
+    type: statics
+    aliases:
+      - name: piętnasty
+        type: adjectives
+      - name: '15'
+        type: statics
+    code: '15'
+  - name: szesnaście
+    type: statics
+    aliases:
+      - name: szesnasty
+        type: adjectives
+      - name: '16'
+        type: statics
+    code: '16'
+  - name: siedemnaście
+    type: statics
+    aliases:
+      - name: siedemnasty
+        type: adjectives
+      - name: '17'
+        type: statics
+    code: '17'
+  - name: osiemnaście
+    type: statics
+    aliases:
+      - name: osiemnasty
+        type: adjectives
+      - name: '18'
+        type: statics
+    code: '18'
+  - name: dziewiętnaście
+    type: statics
+    aliases:
+      - name: dziewiętnasty
+        type: adjectives
+      - name: '19'
+        type: statics
+    code: '19'
+  - name: dwadzieścia
+    type: statics
+    aliases:
+      - name: dwudziesty
+        type: adjectives
+      - name: '20'
+        type: statics
+    code: '20'
+
+  - name: dwadzieścia jeden
+    type: statics
+    aliases:
+      - name: dwudziesty pierwszy
+        type: adjectives
+      - name: '21'
+        type: statics
+    code: '21'
+  - name: dwadzieścia dwa
+    type: statics
+    aliases:
+      - name: dwudziesty drugi
+        type: adjectives
+      - name: '22'
+        type: statics
+    code: '22'
+  - name: dwadzieścia trzy
+    type: statics
+    aliases:
+      - name: dwudziesty trzeci
+        type: adjectives
+      - name: '23'
+        type: statics
+    code: '23'
+  - name: dwadzieścia cztery
+    type: statics
+    aliases:
+      - name: dwudziesty czwarty
+        type: adjectives
+      - name: '24'
+        type: statics
+    code: '24'

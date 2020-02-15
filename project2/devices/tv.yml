@@ -1,0 +1,41 @@
+commands:
+  - name: włączyć
+    type: verb
+    aliases:
+      - name: załączyć
+        type: verb
+    code: 'on'
+  - name: wyłączyć
+    type: verb
+    code: 'off'
+  - name: przełączyć
+    type: verb
+    code: toogle
+  - name: głośniej
+    type: statics
+    aliases:
+      - name: nagłośnić
+        type: verb
+    code: vol_up
+  - name: ciszej
+    type: statics
+    aliases:
+      - name: ściszyć
+        type: verb
+      - name: przyciszyć
+        type: verb
+    code: vol_down
+  - name: następny kanał
+    type: adjective-noun
+    code: ch_next
+  - name: poprzedni kanał
+    type: adjective-noun
+    code: ch_prev
+  - name: ustawić
+    type: verb
+    aliases:
+      - name: wybrać
+        type: verb
+    code: set
+    configs:
+      - devices/tv-set.yml

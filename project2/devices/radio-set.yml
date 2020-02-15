@@ -1,0 +1,11 @@
+commands:
+  - name: głośność
+    type: noun
+    code: vol
+    configs:
+      - subdevices/volume.yml
+  - name: kanał
+    type: noun
+    code: ch
+    configs:
+      - subdevices/channel.yml

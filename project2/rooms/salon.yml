@@ -1,0 +1,73 @@
+commands:
+  - name: górne oświetlenie
+    type: adjective-noun
+    aliases:
+      - name: górna lampa
+        type: adjective-noun
+      - name: górne światło
+        type: adjective-noun
+    code: D1
+    configs:
+      - devices/lamp.yml
+  - name: lewe oświetlenie
+    type: adjective-noun
+    aliases:
+      - name: lewa lampa
+        type: adjective-noun
+      - name: lewe światło
+        type: adjective-noun
+    code: D2
+    configs:
+      - devices/lamp.yml
+      - devices/smart-lamp.yml
+      - devices/smart-lamp-set.yml
+  - name: prawe oświetlenie
+    type: adjective-noun
+    aliases:
+      - name: prawa lampa
+        type: adjective-noun
+      - name: prawe światło
+        type: adjective-noun
+    code: D3
+    configs:
+      - devices/lamp.yml
+      - devices/smart-lamp.yml
+      - devices/smart-lamp-set.yml
+  - name: całe oświetlenie
+    type: adjective-noun
+    aliases:
+      - name: wszystkie lampy
+        type: adjective-noun
+      - name: wszystkie światła
+        type: adjective-noun
+    code: D4
+    configs:
+      - devices/lamp.yml
+  - name: lewa roleta
+    type: adjective-noun
+    aliases:
+      - name: lewa zasłona
+        type: adjective-noun
+    code: D5
+    configs:
+      - devices/blind.yml
+  - name: prawa roleta
+    type: adjective-noun
+    aliases:
+      - name: prawa zasłona
+        type: adjective-noun
+    code: D6
+    configs:
+      - devices/blind.yml
+  - name: rolety
+    type: noun
+    aliases:
+      - name: rolety razem
+        type: noun-statics
+      - name: zasłony
+        type: noun
+      - name: zasłony razem
+        type: noun-statics
+    code: D7
+    configs:
+      - devices/blind.yml

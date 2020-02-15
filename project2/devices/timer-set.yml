@@ -1,0 +1,11 @@
+commands:
+  - name: godzina budzenia
+    type: noun-statics
+    aliases:
+      - name: godzina
+        type: noun
+      - name: budzenie
+        type: noun
+    code: time
+    configs:
+      - subdevices/hour.yml

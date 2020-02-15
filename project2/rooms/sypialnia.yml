@@ -1,0 +1,80 @@
+commands:
+  - name: górne oświetlenie
+    type: adjective-noun
+    aliases:
+      - name: górna lampa
+        type: adjective-noun
+      - name: górne światło
+        type: adjective-noun
+    code: B1
+    configs:
+      - devices/lamp.yml
+      - devices/smart-lamp.yml
+      - devices/smart-lamp-set.yml
+  - name: lewe oświetlenie
+    type: adjective-noun
+    aliases:
+      - name: lewa lampa
+        type: adjective-noun
+      - name: lewe światło
+        type: adjective-noun
+    code: B2
+    configs:
+      - devices/lamp.yml
+  - name: prawe oświetlenie
+    type: adjective-noun
+    aliases:
+      - name: prawa lampa
+        type: adjective-noun
+      - name: prawe światło
+        type: adjective-noun
+    code: B3
+    configs:
+      - devices/lamp.yml
+  - name: lampa
+    type: noun
+    aliases:
+      - name: światło
+        type: noun
+    code: B4
+    configs:
+      - devices/lamp.yml
+  - name: telewizor
+    type: noun
+    code: B5
+    configs:
+      - devices/tv.yml
+      - devices/tv-set.yml
+  - name: oświetlenie telewizora
+    type: noun-statics
+    aliases:
+      - name: lampa za telewizorem
+        type: noun-statics
+      - name: światło za telewizorem
+        type: noun-statics
+      - name: oświetlenie za telewizorem
+        type: noun-statics
+    code: B6
+    configs:
+      - devices/lamp.yml
+  - name: całe oświetlenie
+    type: adjective-noun
+    aliases:
+      - name: wszystkie lampy
+        type: adjective-noun
+      - name: wszystkie światła
+        type: adjective-noun
+    code: B7
+    configs:
+      - devices/lamp.yml
+  - name: budzik
+    type: noun
+    aliases:
+      - name: zegar
+        type: noun
+      - name: zegarek
+        type: noun
+    code: B8
+    configs:
+      - devices/timer.yml
+      - devices/timer-set.yml

@@ -1,0 +1,31 @@
+commands:
+  - name: górne oświetlenie
+    type: adjective-noun
+    aliases:
+      - name: górna lampa
+        type: adjective-noun
+      - name: górne światło
+        type: adjective-noun
+    code: A6
+    configs:
+      - devices/lamp.yml
+  - name: lewe oświetlenie
+    type: adjective-noun
+    aliases:
+      - name: lewa lampa
+        type: adjective-noun
+      - name: lewe światło
+        type: adjective-noun
+    code: A8
+    configs:
+      - devices/lamp.yml
+  - name: prawe oświetlenie
+    type: adjective-noun
+    aliases:
+      - name: prawa lampa
+        type: adjective-noun
+      - name: prawe światło
+        type: adjective-noun
+    code: A9
+    configs:
+      - devices/lamp.yml

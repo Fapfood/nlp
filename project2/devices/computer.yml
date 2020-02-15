@@ -1,0 +1,16 @@
+commands:
+  - name: włączyć
+    type: verb
+    aliases:
+      - name: załączyć
+        type: verb
+    code: 'on'
+  - name: wyłączyć
+    type: verb
+    aliases:
+      - name: zgasić
+        type: verb
+    code: 'off'
+  - name: przełączyć
+    type: verb
+    code: toogle

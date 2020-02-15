@@ -1,0 +1,48 @@
+commands:
+  - name: górne oświetlenie
+    type: adjective-noun
+    aliases:
+      - name: górna lampa
+        type: adjective-noun
+      - name: górne światło
+        type: adjective-noun
+    code: C1
+    configs:
+      - devices/lamp.yml
+  - name: oświetlenie lustra
+    type: noun-statics
+    aliases:
+      - name: lampa nad lustrem
+        type: noun-statics
+      - name: światło nad lustrem
+        type: noun-statics
+      - name: oświetlenie nad lustrem
+        type: noun-statics
+    code: C2
+    configs:
+      - devices/lamp.yml
+  - name: wentylator
+    type: noun
+    aliases:
+      - name: nawiew
+        type: noun
+      - name: klimatyzacja
+        type: noun
+    code: C3
+    configs:
+      - devices/fan.yml
+  - name: dmuchawa
+    type: noun
+    code: C4
+    configs:
+      - devices/fan.yml
+  - name: całe oświetlenie
+    type: adjective-noun
+    aliases:
+      - name: wszystkie lampy
+        type: adjective-noun
+      - name: wszystkie światła
+        type: adjective-noun
+    code: C5
+    configs:
+      - devices/lamp.yml

@@ -1,0 +1,13 @@
+commands:
+  - name: niebieski
+    type: adjectives
+    code: blue
+  - name: żółty
+    type: adjectives
+    code: yellow
+  - name: czerwony
+    type: adjectives
+    code: red
+  - name: zielony
+    type: adjectives
+    code: green

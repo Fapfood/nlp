@@ -1,0 +1,69 @@
+commands:
+  - name: poddasze
+    type: noun
+    code: A
+    configs:
+      - rooms/poddasze.yml
+  - name: pierwsza sekcja poddasza
+    type: adjective-noun-statics
+    aliases:
+      - name: pierwsza część poddasza
+        type: adjective-noun-statics
+      - name: poddasze w sekcji pierwszej
+        type: noun-statics
+      - name: poddasze w części pierwszej
+        type: noun-statics
+      - name: poddasze sekcja pierwsza
+        type: statics
+      - name: poddasze część pierwsza
+        type: statics
+    code: A
+    configs:
+      - rooms/poddasze-s1.yml
+  - name: druga sekcja poddasza
+    type: adjective-noun-statics
+    aliases:
+      - name: druga część poddasza
+        type: adjective-noun-statics
+      - name: poddasze w sekcji drugiej
+        type: noun-statics
+      - name: poddasze w części drugiej
+        type: noun-statics
+      - name: poddasze sekcja druga
+        type: statics
+      - name: poddasze część druga
+        type: statics
+    code: A
+    configs:
+      - rooms/poddasze-s2.yml
+  - name: sypialnia
+    type: noun
+    aliases:
+      - name: sypialny pokój
+        type: adjective-noun
+    code: B
+    configs:
+      - rooms/sypialnia.yml
+  - name: łazienka
+    type: noun
+    aliases:
+      - name: toaleta
+        type: noun
+    code: C
+    configs:
+      - rooms/łazienka.yml
+  - name: salon
+    type: noun
+    aliases:
+      - name: jadalnia
+        type: noun
+      - name: dzienny pokój
+        type: adjective-noun
+    code: D
+    configs:
+      - rooms/salon.yml
+  - name: kuchnia
+    type: noun
+    code: E
+    configs:
+      - rooms/kuchnia.yml

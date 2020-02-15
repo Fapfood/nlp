@@ -1,0 +1,214 @@
+on A1 | on A1 | Załącz oświetlenie górne na poddaszu w sekcji pierwszej
+off A1 | off A1 | Wyłącz oświetlenie górne na poddaszu w sekcji pierwszej
+Error: Command not found: "na" in: "górne oświetlenie" in: "pierwsza sekcja poddasza" | toggle A1 | oświetlenie górne na poddaszu w sekcji pierwszej
+on A1 | on A1 | poddasze sekcja pierwsza oświetlenie górne Załącz
+on A2 | on A2 | oświetlenie biurka na poddaszu Załącz
+on A2 | on A2 | poddasze oświetlenie biurka Załącz
+off A2 | off A2 | Wyłącz oświetlenie biurka na poddaszu
+Error: Command not found: "na" in: "oświetlenie biurka" in: "poddasze" | toggle A2 | oświetlenie biurka na poddaszu
+on A3 | on A3 | Załącz radio na poddaszu
+off A3 | off A3 | Wyłącz radio na poddaszu
+on A3 | on A3 | poddasze radio Załącz
+ch A3 3 | set A3 ch 3 | Załącz radio na poddaszu kanał trzeci
+set A3 vol 0 | se A3 vol 5 | radio na poddaszu Ustaw głośność na 5
+vol_up A3 | vol_up A3 | radio na poddaszu głośniej
+vol_down A3 | vol_down A3 | radio na poddaszu ciszej
+ch A3 4 | set A3 vol 4 | radio na poddaszu zmień kanał na 4
+on A4 | on A4 | Załącz komputer na poddaszu
+off A4 | off A4 | Wyłącz komputer na poddaszu
+on A4 | on A4 | poddasze komputer Załącz
+off A4 | off A4 | poddasze komputer wyłącz
+Error: Command not found: "na" in: "komputer" in: "poddasze" | toggle A4 | komputer na poddaszu
+Error: Command not found: "na" in: "monitor" in: "poddasze" | toggle A5 | monitor na poddaszu
+on A5 | on A5 | Załącz monitor na poddaszu
+off A5 | off A5 | Wyłącz monitor na poddaszu
+Error: Command not found: "załącz oświetlenie górne w sekcji drugiej na" in: "poddasze" | on A6 | Załącz oświetlenie górne w sekcji drugiej na poddaszu
+Error: Command not found: "wyłącz oświetlenie górne w sekcji drugiej na" in: "poddasze" | off A6 | Wyłącz oświetlenie górne w sekcji drugiej na poddaszu
+Error: Command not found: "oświetlenie górne w sekcji drugiej na" in: "poddasze" | toggle A6 | oświetlenie górne w sekcji drugiej na poddaszu
+on A7 | on A7 | Załącz lampy nad Oławą na poddaszu
+off A7 | off A7 | Wyłącz lampę nad ławą na poddaszu
+Error: Command not found: "lampa nad oławą" | toggle A7 | lampa nad Oławą
+Error: Command not found: "lampa lewa na" in: "poddasze" | toggle A8 | lampa lewa na poddaszu
+Error: Command not found: "załącz lampę lewą na" in: "poddasze" | on A8 | Załącz lampę lewą na poddaszu
+Error: Command not found: "wyłącz lampę lewą na" in: "poddasze" | off A8 | Wyłącz lampę lewą na poddaszu
+Error: Command not found: "lampa p na" in: "radio" in: "poddasze" | toggle A9 | lampa prawa na poddaszu
+Error: Command not found: "załącz lampę lewą na" in: "poddasze" | on A9 | Załącz lampę lewą na poddaszu
+Error: Command not found: "wyłącz lampę lewą na" in: "poddasze" | off A9 | Wyłącz lampę lewą na poddaszu
+on A10 | on A10 | Załącz telewizor na poddaszu
+Error: Command not found: "na" in: "telewizor" in: "poddasze" | toggle A10 | telewizor na poddaszu
+ch A10 5 | set A10 ch 5 | telewizor na poddaszu kanał piąty
+set A10 ch 3 | set A10 ch 3 | telewizor na poddaszu Ustaw kanał trzeci
+set A10 vol 0 | set A10 vol 4 | telewizor na poddaszu Ustaw głośność na 4
+vol_down A10 | vol_down A10 | telewizor na poddaszu ciszej
+vol_up A10 | vol_up A10 | telewizor na poddaszu głośniej
+vol_down A10 | vol_down A10 | ścisz telewizor na poddaszu
+on A11 | on A11 | oświetlenie za telewizorem na poddaszu Załącz
+on A11 | on A11 | Załącz oświetlenie za telewizorem na poddaszu
+on A10 | on A11 | poddasze telewizor oświetlenie Załącz
+off A11 | off A11 | oświetlenie za telewizorem na poddaszu wyłącz
+off A12 | off A12 | całe oświetlenie na poddaszu wyłącz
+on A12 | on A12 | całe oświetlenie na poddaszu Załącz
+Error: Command not found: "na" in: "całe oświetlenie" in: "poddasze" | toggle A12 | całe oświetlenie na poddaszu
+on B1 | on B1 | Załącz oświetlenie górne w sypialni
+off B1 | off B1 | Wyłącz oświetlenie górne w sypialni
+on B1 | on B1 | sypialnia oświetlenie górne Załącz
+on B1 | on B1 | sypialnia Załącz oświetlenie górne
+off B1 | off B1 | sypialnia Wyłącz oświetlenie górne
+Error: Command not found: "" in: "górne oświetlenie" in: "sypialnia" | toggle B1 | sypialnia oświetlenie główne
+warm B1 | warm B1 | sypialnia oświetlenie główne w barwa ciepła
+cold B1 | cold B1 | sypialnia oświetlenie górne barwa zimna
+on B4 | on B4 | Załącz lampę w sypialni
+on B4 | on B2 | Załącz lampy lewo w sypialni
+on B2 | on B2 | Załącz lampę lewą w sypialni
+Error: Command not found: "w" in: "lewe oświetlenie" in: "sypialnia" | toggle B2 | lampa lewa w sypialni
+off B2 | off B2 | Wyłącz lampę lewą w sypialni
+on B3 | on B3 | Załącz lampę prawą w sypialni
+off B3 | off B3 | Wyłącz lampę prawą w sypialni
+on B4 | error | Załącz lampy w sypialni
+off B4 | off B4 | Wyłącz lampę w sypialni
+Error: Command not found: "salon" in: "lampa" in: "sypialnia" | toggle B1 | sypialnia salon światło
+off B4 | off B1 | sypialnia Wyłącz światło
+on B4 | on B1 | Załącz światło w sypialni
+off B4 | off B1 | Wyłącz światło w sypialni
+Error: Command not found: "w" in: "lampa" in: "sypialnia" | toggle B4 | lampa w sypialni
+Error: Command not found: "w" in: "lampa" in: "sypialnia" | toggle B4 | lampy w sypialni
+off B4 | off B4 | Wyłącz lampę w sypialni
+on B5 | on B5 | sypialnia Załącz telewizor
+on B5 | on B5 | Załącz telewizor w sypialni
+off B5 | off B5 | Wyłącz telewizor w sypialni
+ch B5 7 | set B5 ch 7 | telewizor sypialni kanał 7
+set B5 ch 7 | set B5 ch 7 | Wybierz kanał 7 telewizor sypialni
+set B5 ch 11 | set B5 ch 11 | Ustaw kanał 11 telewizor sypialni
+ch B5 12 | set B5 ch 12 | telewizor w sypialni kanał 12
+on B5 | on B5 | sypialnia Załącz telewizor w sypialni
+on B6 | on B6 | sypialnia załącza oświetlenie za telewizorem
+off B6 | off B6 | sypialnia Wyłącz oświetlenie za telewizorem
+on B6 | on B6 | sypialnia Załącz oświetlenie za telewizorem
+off B4 | toggle B6 | sypialnia oświetlenie za telewizorem
+off B7 | off B7 | Wyłącz całe oświetlenie w sypialni
+on B7 | on B7 | Załącz całe oświetlenie w sypialni
+Error: Command not found: "cały onie w" in: "lampa" in: "sypialnia" | toggle B7 | cały oświetlenie w sypialni
+on B8 | on B8 | Załącz budzik w sypialni
+off B8 | off B8 | Wyłącz budzik w sypialni
+Error: Command not found: "załącz budzik" | on B8 | Załącz budzik
+Error: Command not found: "wyłącz budzik" | off B8 | Wyłącz budzik
+Error: Command not found: "ustaw budzik na 6:00" | set B8 time 6:00 | Ustaw budzik na 6:00
+Error: Command not found: "ustaw budzik na 5:30" | set B8 time 5:30 | Ustaw budzik na 5:30
+Error: Command not found: "ustaw budzik na godzinę 0" | set B8 time 0:00 | Ustaw budzik na godzinę 0
+Error: Command not found: "ustaw budzenie na 7:00 rano" | set B8 time 7:00 | Ustaw budzenie na 7:00 rano
+Error: Command not found: "ustaw budzenie na" | error | Ustaw budzenie na
+Error: Command not found: "ustaw budzenie na 7:00 rano" | set B8 time 7:00 | Ustaw budzenie na 7:00 rano
+Error: Command not found: "ustaw budzenie na 20:00" | set B8 time 20:00 | Ustaw budzenie na 20:00
+Error: Command not found: "załącz oświetlenie w" in: "łazienka" | on C1 | Załącz oświetlenie w łazience
+on C1 | on C1 | Załącz oświetlenie górne w łazience
+Error: Command not found: "załącz światło w" in: "łazienka" | on C1 | Załącz światło w łazience
+Error: Command not found: "wyłącz światło w" in: "łazienka" | off C1 | Wyłącz światło w łazience
+off C1 | off C1 | Wyłącz oświetlenie górne w łazience
+off C1 | off C1 | Wyłącz światło Górne w łazience
+Error: Command not found: "światło w" in: "łazienka" | toggle C1 | światło w łazience
+Error: Command not found: "w" in: "górne oświetlenie" in: "łazienka" | toggle C1 | oświetlenie górne w łazience
+on C2 | on C2 | Załącz lampy nad lustrem w łazience
+off C2 | off C2 | Wyłącz lampy nad lustrem w łazience
+on C2 | on C2 | łazienka las lampa nad lustrem Załącz
+off C2 | off C2 | łazienka Wyłącz lampy nad lustrem
+off C2 | off C2 | łazienka Wyłącz lampę nad lustrem
+Error: Command not found: "" in: "oświetlenie lustra" in: "łazienka" | toggle C2 | łazienka lampa nad lustrem
+on C3 | on C3 | Załącz wentylator w łazience
+off C3 | off C3 | Wyłącz wentylator w łazience
+Error: Command not found: "w" in: "wentylator" in: "łazienka" | toggle C3 | wentylator w łazience
+on C3 | on C3 | łazienka wentylator Załącz
+on C3 | on C3 | łazienka Załącz wentylator
+Error: Command not found: "wyłączyłem ty lator" in: "łazienka" | error | łazienka wyłączyłem ty lator
+off C3 | off C3 | łazienka Wyłącz wentylator
+Error: Command not found: "załóż w" in: "dmuchawa" in: "łazienka" | error | Załóż dmuchawę w łazience
+on C4 | on C4 | Załącz dmuchawy w łazience
+on C4 | on C4 | Załącz dmuchawę w łazience
+off C4 | off C4 | Wyłącz dmuchawę w łazience
+Error: Command not found: "w" in: "dmuchawa" in: "łazienka" | toggle C4 | dmuchawa w łazience
+Error: Command not found: "załóż druha we" in: "łazienka" | error | łazienka Załóż druha we
+on C4 | on C4 | łazienka Załącz dmuchawy
+on C4 | on C4 | łazienka Załącz dmuchawę
+off C4 | off C4 | łazienka Wyłącz dmuchawę
+off C5 | off C5 | Wyłącz całe oświetlenie w łazience
+on C5 | on C5 | Załącz całe oświetlenie w łazience
+Error: Command not found: "w" in: "całe oświetlenie" in: "łazienka" | toggle C5 | całe oświetlenie w łazience
+Error: Command not found: "załącz światło w" in: "salon" | on D1 | Załącz światło w salonie
+Error: Command not found: "wyłącz światło w" in: "salon" | off D1 | wyłącz światło w salonie
+on D1 | on D1 | Załącz oświetlenie górne w salonie
+off D1 | off D1 | Wyłącz oświetlenie górne w salonie
+Error: Command not found: "w" in: "górne oświetlenie" in: "salon" | toggle D1 | oświetlenie górne w salonie
+Error: Command not found: "światło w" in: "salon" | toggle D1 | światło w salonie
+Error: Command not found: "w" in: "lewe oświetlenie" in: "salon" | toggle D2 | lampa lewa w salonie
+Error: Command not found: "załączyłem telefon w" in: "salon" | error | Załączyłem telefon w salonie
+on D2 | on D2 | Załącz lampę lewą w salonie
+off D2 | off D2 | Wyłącz lampę lewą w salonie
+Error: Command not found: "wyłączyłem telefon w" in: "salon" | error | wyłączyłem telefon w salonie
+Error: Command not found: "" in: "prawe oświetlenie" in: "salon" | toggle D3 | salon lampa prawa
+on D3 | on D3 | salon Załącz prawą lampę
+on D3 | on D3 | salon Załącz lampę prawą
+color D2 blue | set D2 color blue | lampa lewa w salonie kolor niebieski
+color D3 red | set D3 color red | lampa prawa w salonie kolor czerwony
+color D2 red | set D2 color red | salon lampa lewa kolor czerwony
+color D2 green | set D2 color green | salon lampa lewa kolor zielony
+off D4 | off D4 | Wyłącz całe oświetlenie w salonie
+on D4 | on D4 | Załącz całe oświetlenie w salonie
+off D4 | off D4 | salon Wyłącz całe oświetlenie
+up D5 | up D5 | salon roleta lewa w górę
+down D5 | down D5 | salon roleta lewa w dół
+Error: Command not found: "" in: "lewa roleta" in: "salon" | error | salon roleta lewa
+stop D5 | stop D5 | salon roleta lewa stop
+up D6 | up D6 | roleta prawa w salonie Do góry
+down D5 | down D5 | roleta lewa w salonie w dół
+up D7 | error | Podnieś roletę nową w salonie
+stop D6 | down D6 | Opuść roletę prawą w salonie
+up D7 | up D7 | rolety w salonie Do góry
+up D7 | up D7 | Podnieść rolety w salonie
+stop D7 | down D7 | Opuść rolety w salonie
+Error: Command not found: "ale ty w na dół" in: "salon" | error | Ale ty w salonie na dół
+Error: Command not found: "zatrzymaj w" in: "rolety" in: "salon" | stop D7 | Zatrzymaj rolety w salonie
+stop D7 | stop D7 | rolety w salonie stop
+up D7 | up D7 | rolety w salonie w górę
+stop D7 | up D7 | Odsłoń rolety w salonie
+stop D7 | down D7 | Zasłoń rolety w salonie
+Error: Command not found: "zasłoń" in: "łazienka" | down D7 | Zasłoń rolety
+Error: Command not found: "załącz oświetlenie w" in: "kuchnia" | on E1 | Załącz oświetlenie w kuchni
+Error: Command not found: "wyłącz oświetlenie w" in: "kuchnia" | off E1 | Wyłącz oświetlenie w kuchni
+on E1 | on E1 | Załącz oświetlenie górne w kuchni
+off E1 | off E1 | Wyłącz oświetlenie górne w kuchni
+Error: Command not found: "załącz światło w" in: "kuchnia" | on E1 | Załącz światło w kuchni
+Error: Command not found: "wyłącz światło w" in: "kuchnia" | off E1 | Wyłącz światło w kuchni
+Error: Command not found: "załącz oświetlenie nad szafkami" | on E2 | Załącz oświetlenie nad szafkami
+Error: Command not found: "wyłącz oświetlenie nad szafkami" | off E2 | Wyłącz oświetlenie nad szafkami
+off E1 | set E2 bright 50 | Ustaw oświetlenie górne nad szafkami w kuchni na 50%
+off E1 | set E2 bright 5 | kuchnia oświetlenie górne nad szafkami 5%
+Error: Command not found: "" in: "oświetlenie nad szafkami" in: "kuchnia" | toggle E2 | kuchnia oświetlenie nad szafkami
+Error: Command not found: "" in: "oświetlenie nad szafkami" in: "kuchnia" | toggle E3 | kuchnia oświetlenie pod szafkami
+off E2 | error | Załóż oświetlenie pod szafkami w kuchni
+off E2 | off E3 | Wyłącz oświetlenie pod szafkami w kuchni
+on E2 | on E3 | kuchnia Załącz oświetlenie pod szafkami
+off E2 | off E3 | kuchnia Wyłącz oświetlenie pod szafkami
+Error: Command not found: "" in: "oświetlenie nad szafkami" in: "kuchnia" | toggle E3 | kuchnia oświetlenie pod szafkami
+Error: Command not found: "50%" in: "oświetlenie nad szafkami" in: "kuchnia" | set E2 bright 50 | kuchnia oświetlenie nad szafkami 50%
+Error: Command not found: "10%" in: "oświetlenie nad szafkami" in: "kuchnia" | set E2 bright 10 | kuchnia oświetlenie nad szafkami 10%
+Error: Command not found: "na 20%" in: "ustawić" in: "oświetlenie nad szafkami" in: "kuchnia" | set E2 bright 20 | kuchnia oświetlenie nad szafkami Ustaw na 20%
+on E4 | on E4 | Załącz oświetlenie okapu w kuchni
+off E4 | off E4 | Wyłącz oświetlenie okapu w kuchni
+Error: Command not found: "w" in: "oświetlenie okapu" in: "kuchnia" | toggle E4 | oświetlenie okapu w kuchni
+on E5 | on E5 | wentylator okapu w kuchni Załącz
+on E5 | on E5 | Załącz wentylator okapu w kuchni
+off E5 | off E5 | Wyłącz wentylator okapu w kuchni
+Error: Command not found: "w" in: "wentylator okapu" in: "kuchnia" | toggle E5 | wentylator okapu w kuchni
+on E6 | on E5 | kuchnia okap wentylator Załącz
+off E6 | off E5 | kuchnia okap wentylator wyłącz
+slow E5 | slow E5 | wentylator okapu w kuchni wolno
+fast E5 | fast E5 | wentylator okapu w kuchni szybko
+slow E6 | slow E5 | kuchnia okap wentylator wolno
+fast E6 | fast E5 | kuchnia okap wentylator szybko
+fast E5 | fast E5 | kuchnia wentylator okapu szybko
+on E6 | on E6 | Załącz wentylator w kuchni
+off E6 | off E6 | Wyłącz wentylator w kuchni
+Error: Command not found: "w" in: "wentylator" in: "kuchnia" | toggle E6 | wentylator w kuchni
+on E6 | on E6 | wentylator w kuchni Załącz
+off E7 | off E7 | całe oświetlenie w kuchni wyłącz
+off E7 | off E7 | Wyłącz cały oświetlenie w kuchni
+off E7 | off E7 | kuchnia cały oświetlenie wyłącz

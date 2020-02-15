@@ -1,0 +1,67 @@
+commands:
+  - name: zero
+    type: statics
+    aliases:
+      - name: '0'
+        type: statics
+    code: '0'
+  - name: dziesięć
+    type: statics
+    aliases:
+      - name: '10'
+        type: statics
+    code: '10'
+  - name: dwadzieścia
+    type: statics
+    aliases:
+      - name: '20'
+        type: statics
+    code: '20'
+  - name: trzydzieści
+    type: statics
+    aliases:
+      - name: '30'
+        type: statics
+    code: '30'
+  - name: czterdzieści
+    type: statics
+    aliases:
+      - name: '40'
+        type: statics
+    code: '40'
+  - name: pięćdziesiąt
+    type: statics
+    aliases:
+      - name: '50'
+        type: statics
+    code: '50'
+  - name: sześćdziesiąt
+    type: statics
+    aliases:
+      - name: '60'
+        type: statics
+    code: '60'
+  - name: siedemdziesiąt
+    type: statics
+    aliases:
+      - name: '70'
+        type: statics
+    code: '70'
+  - name: osiemdziesiąt
+    type: statics
+    aliases:
+      - name: '80'
+        type: statics
+    code: '80'
+  - name: dziewięćdziesiąt
+    type: statics
+    aliases:
+      - name: '90'
+        type: statics
+    code: '90'
+  - name: sto
+    type: statics
+    aliases:
+      - name: '100'
+        type: statics
+    code: '100'

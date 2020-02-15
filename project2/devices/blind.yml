@@ -1,0 +1,18 @@
+commands:
+  - name: podnosić
+    type: verb
+    aliases:
+      - name: w górę
+        type: statics
+      - name: do góry
+        type: statics
+    code: up
+  - name: opuszczać
+    type: verb
+    aliases:
+      - name: w dół
+        type: statics
+    code: down
+  - name: stop
+    type: statics
+    code: stop

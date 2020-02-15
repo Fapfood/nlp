@@ -1,0 +1,25 @@
+commands:
+  - name: cieplej
+    type: statics
+    aliases:
+      - name: ciepło
+        type: statics
+      - name: ciepły
+        type: adjectives
+    code: warm
+  - name: zimniej
+    type: statics
+    aliases:
+      - name: zimno
+        type: statics
+      - name: zimny
+        type: adjectives
+    code: cold
+  - name: ustawić
+    type: verb
+    aliases:
+      - name: wybrać
+        type: verb
+    code: set
+    configs:
+      - devices/smart-lamp-set.yml

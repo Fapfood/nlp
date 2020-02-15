@@ -1,0 +1,11 @@
+commands:
+  - name: jasność
+    type: noun
+    code: bright
+    configs:
+      - subdevices/bright.yml
+  - name: kolor
+    type: noun
+    code: color
+    configs:
+      - subdevices/color.yml

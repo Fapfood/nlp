@@ -1,0 +1,29 @@
+commands:
+  - name: włączyć
+    type: verb
+    aliases:
+      - name: załączyć
+        type: verb
+    code: 'on'
+  - name: wyłączyć
+    type: verb
+    code: 'off'
+  - name: przełączyć
+    type: verb
+    code: toogle
+  - name: szybciej
+    type: statics
+    aliases:
+      - name: przyśpieszyć
+        type: verb
+      - name: szybko
+        type: statics
+    code: fast
+  - name: wolniej
+    type: statics
+    aliases:
+      - name: zwolnić
+        type: verb
+      - name: wolno
+        type: statics
+    code: slow
